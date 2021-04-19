@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | ThunderBird_2.0</title>
+    <title>Unity WebGL Player | BareEmptyProject</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,22 +20,20 @@
         WebGL builds are not supported on mobile devices.
       </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">ThunderBird_2.0</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WebPlayer.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebPlayer.data.br",
-        frameworkUrl: buildUrl + "/WebPlayer.framework.js.br",
-        codeUrl: buildUrl + "/WebPlayer.wasm.br",
+        dataUrl: buildUrl + "/WebPlayer.data.gz",
+        frameworkUrl: buildUrl + "/WebPlayer.framework.js.gz",
+        codeUrl: buildUrl + "/WebPlayer.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "ThunderBird_2.0",
-        productVersion: "1.0",
+        productName: "BareEmptyProject",
+        productVersion: "0.1",
       };
 
       var container = document.querySelector("#unity-container");
